@@ -21,7 +21,7 @@ pipeline {
                  script{
                         dir("terraform")
                         {
-                            git "https://github.com/shagul998/newcluster_terraform.git"
+                            git "https://github.com/shagul998/server_launch_tf.git"
                         }
                     }
                 }
